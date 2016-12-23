@@ -52,6 +52,8 @@ data=np.float32(data)
 labels=np.float32(labels)
 
 
+
+
 #数据准备结束,开始训练
 
 x_data=tf.placeholder(dtype=tf.float32,shape=[None,2])
